@@ -17,6 +17,7 @@ public class Gestor {
         MongoClient mongoClient;
 
         if (args.length == 0) {
+
             // connect to the local database server
             mongoClient = new MongoClient();
         } else {
