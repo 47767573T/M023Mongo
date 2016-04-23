@@ -28,11 +28,9 @@ public class Menu {
         mongoClient = new MongoClient(new ServerAddress("192.168.56.1"));
         MongoDatabase db = mongoClient.getDatabase("Guerras");
 
-        //Definimos e instanciamos las colecciones
+        //Definimos e instanciamos las colecciones (si no existe la crea)
         conflictosCol = db.getCollection("conflicto");
         grupoArmadosCol = db.getCollection("grupoArmado");
-        System.out.println("conflictosCol: " + conflictosCol);
-        System.out.println("grupoArmadosCol: " + grupoArmadosCol);
 
         // Menu
         Scanner scn = new Scanner(System.in);
