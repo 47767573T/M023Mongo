@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="bson-3.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/ConexionMongodb-master/Llibreria/bson-3.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ConexionMongodb-master/Llibreria/jackson-core-asl-1.9.13.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ConexionMongodb-master/Llibreria/jackson-mapper-asl-1.9.13.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/ConexionMongodb-master/Llibreria/mongo-java-driver-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
